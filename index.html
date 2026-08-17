@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="人工智能通识与应用：2 小时工作坊与 8 小时系统课" />
+    <title>人工智能通识与应用</title>
+    <style>
+      :root { color: #17243a; background: #fbfaf6; font-family: "Songti SC", "Noto Serif CJK SC", serif; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; }
+      main { width: min(960px, calc(100% - 48px)); }
+      .kicker { color: #087f7b; font: 700 13px/1.2 ui-sans-serif, sans-serif; letter-spacing: .14em; }
+      h1 { margin: .35rem 0 .2rem; font-size: clamp(42px, 7vw, 76px); letter-spacing: -.05em; }
+      p { color: #46566e; font-size: 20px; }
+      .rule { border-top: 3px solid #225bb4; margin: 28px 0 42px; }
+      .courses { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+      a { color: inherit; text-decoration: none; border-top: 2px solid #cbd5e1; padding: 22px 4px; transition: border-color .15s, transform .15s; }
+      a:hover { border-color: #225bb4; transform: translateY(-3px); }
+      strong { display: block; color: #225bb4; font-size: 30px; margin-bottom: 8px; }
+      span { color: #5c6b80; font-size: 17px; line-height: 1.55; }
+      footer { margin-top: 52px; color: #718096; font: 14px ui-sans-serif, sans-serif; }
+      @media (max-width: 680px) { .courses { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="kicker">AI SEED · COURSE LIBRARY</div>
+      <h1>人工智能通识与应用</h1>
+      <p>从理解大模型到搭建可靠、可复用的 AI 工作流。</p>
+      <div class="rule"></div>
+      <section class="courses" aria-label="课程版本">
+        <a href="./ai-general-2h/"><strong>2 小时工作坊</strong><span>任务判断、提示词、个人工作流与安全核验。</span></a>
+        <a href="./ai-general-8h/"><strong>8 小时系统课</strong><span>四个模块，覆盖评估、多模态、智能体、治理与项目实战。</span></a>
+      </section>
+      <footer>李不凯@AI Seed · 2026</footer>
+    </main>
+  </body>
+</html>
